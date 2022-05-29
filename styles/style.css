@@ -1,51 +1,77 @@
-@import url('general-sans.css');
+@import url("general-sans.css");
 
 /* My Styles */
-body{
-    font-family: 'GeneralSans-Regular';
+body {
+  font-family: "GeneralSans-Regular";
 
-    display: grid;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 
-    background-color: rgb(32, 32, 32);
-    color: rgb(234, 255, 255);
+  height: 100vh;
 
-
+  background-color: rgb(32, 32, 32);
 }
 
-h1{
-    font-family: 'GeneralSans-Regular';
-    color: rgb(234, 255, 255);
+h1 {
+  font-family: "GeneralSans-Regular";
+  color: rgb(234, 255, 255);
 }
 
-.thin {
+/* .thin {
     font-family: 'GeneralSans-Extralight';
     color: rgb(0, 255, 255);
+} */
 
+img {
+  height: 20em;
+  border-radius: 5em;
 }
 
-img{
-    height: 20em;
-    border-radius: 5em;
+section {
+  background-color: rgb(207 207 207);
+  border-radius: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: space-evenly;
 }
 
 nav {
-    width: 50%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
+/*   width: 50%; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 1em;
 }
 
 p {
-    width: 40%;
+  margin: 2em;
+  color: rgb(32, 32, 32);
 }
 
-a {
-    font-family: 'GeneralSans-Regular';
-    color: rgb(138, 43, 226);
+button {
+  background-color: rgb(138, 43, 226);
+  border: rgb(117 30 196) 2px solid;
+  border-radius: 5em;
+  padding: .5em;
+  /* color: rgb(234, 255, 255); */
+
 }
+
+button:hover {
+    background-color: rgb(43, 192, 226);
+    border: rgb(30, 149, 196) 2px solid;
+    color: rgb(32, 32, 32);
+}
+
+ a {
+  font-family: "GeneralSans-Regular";
+  color: rgb(234, 255, 255);
+}
+
